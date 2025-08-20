@@ -11,7 +11,9 @@ export const DEFAULT_SETTINGS: SettingsProp = {
 };
 
 export interface ContentProp {
+	id?: string;
 	title: string;
+	updated_at?: string;
 	tags?: string[];
 	featured?: boolean;
 	status: string;
